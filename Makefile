@@ -11,6 +11,9 @@ dev:
 .PHONY: front
 front:
 	docker-compose up -d --no-deps --build client
+.PHONY: init
+init:
+	cd server && npx sequelize-cli db:migrate
 
 .PHONY: deploy
 deploy:

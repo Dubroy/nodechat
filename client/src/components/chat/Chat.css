@@ -1,0 +1,29 @@
+/* Chat.css */
+.chat-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  flex: 1;
+  border-right: 1px solid black;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.chat-content {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.history {
+  flex: 1;
+  padding: 1rem;
+  overflow: auto;
+  border-bottom: 1px solid black;
+}
+
+.message-input {
+  padding: 1rem;
+}

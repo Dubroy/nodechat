@@ -1,0 +1,48 @@
+# Node.js 相關
+node_modules
+npm-debug.log
+yarn-error.log
+
+# 環境變量文件
+.env
+.env.local
+.env.*.local
+
+# 運行時數據
+.pids
+*.pid
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+# 編譯生成的文件
+build/
+dist/
+
+# 忽略 IDE / 編輯器 文件
+.vscode
+.idea
+*.suo
+*.ntvs
+*.njsproj
+*.sln
+*.swp
+
+# OS 文件
+.DS_Store
+Thumbs.db
+
+# 忽略日誌文件
+*.log
+
+# 忽略記錄和歷史
+.history
+.cache
+
+# 忽略規格文件
+/specs/
+server/mysql_data/

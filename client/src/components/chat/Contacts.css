@@ -1,0 +1,10 @@
+/* Contacts.css */
+.contacts .contact {
+  margin: 10px 0; /* 或任何你希望的間距 */
+  /* 其他樣式 */
+}
+
+.contacts .contact.selected {
+  border: 2px solid red; /* 添加紅色外框 */
+  /* 其他樣式 */
+}
